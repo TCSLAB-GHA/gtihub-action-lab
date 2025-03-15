@@ -8,4 +8,12 @@ jobs:
        - name: Show OS
          run: |
              echo "this is running on Ubuntu runner"
-             echo "Runner OS: $RUNNER_OS"     
+             echo "Runner OS: $RUNNER_OS"  
+  Window-echo:
+    runs-on: windows-latest
+    steps:
+       - name: Show OS
+         run: |
+             echo "this is running on Window runner"
+             echo "Runner OS: $RUNNER_OS" 
+      
