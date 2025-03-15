@@ -3,7 +3,7 @@ on: push
 
 jobs:
   Ubuntu-echo:
-    runs-on: Ubuntu-runner
+    runs-on: Ubuntu-latest
     steps:
        - name: Show OS
          run: |
