@@ -5,12 +5,12 @@ jobs:
        runs-on: ubuntu-latest
        steps: 
          - name: hello world!
-           run: echo"Hello world!"
+           run: echo "Hello world!"
   echo-goodbye:
         runs-on: ubuntu-latest
         steps:
            - name: Say good bye!
-             run: echo"good bye all!"
+             run: echo "good bye all!"
         
   
  
